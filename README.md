@@ -17,6 +17,8 @@ O projeto consiste em um WebApp, cujo usuario pode criar uma conta e desfrutar d
 Durante o jogo o usuario poderá optar por compras, apostas, investimentos, etc. E o jogo enviará mensagens sobre porque poupar dinheiro, alguns investimentos para quem quer começar e perguntas que leva o usuario a pensar de forma consciente em ralação ao dinheiro .
 
 
+Link para o site: https://life-bank.netlify.app
+
 
 ## Ferramentas 🛠
 
@@ -33,3 +35,37 @@ Durante o jogo o usuario poderá optar por compras, apostas, investimentos, etc.
  - Material-UI
  - JavaScript
  - ReactJS
+
+### DevOps
+
+ - PostgreeSQL
+ - Netlify
+ - Heroku
+
+## Como executar o projeto :rocket:
+
+### Back end
+Pré-requisitos: Java 8
+
+```bash
+# clonar repositório
+git clone https://github.com/root-who/projetoSpringReactDevSuperior
+# entrar na pasta do projeto backend
+cd backend
+# executar o projeto
+./mvnw spring-boot:run
+```
+
+### Front end web
+Pré-requisitos: npm / yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/root-who/projetoSpringReactDevSuperior
+# entrar na pasta do projeto front end web
+cd frontend
+# instalar dependências
+yarn install
+# executar o projeto
+yarn start
+```
